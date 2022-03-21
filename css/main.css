@@ -1,0 +1,19 @@
+/* ----------- Mobile - for screens 767px and smaller ----------- */
+body {
+  background: lightblue;
+}
+
+
+/* ----------- Tablets - for screens 768px and larger ----------- */
+@media (min-width: 768px) {
+	body {
+    background: lightcoral;
+  }
+}
+
+/* ----------- Desktops - for screens 1200px wide and larger----------- */
+@media (min-width: 1200px) {
+  body {
+    background: plum;
+  }
+}
